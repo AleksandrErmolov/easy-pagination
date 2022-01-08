@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
+import ButtonPagination from "./component/ButtonPagination/ButtonPagination";
 import Header from "./component/Header/Header";
 import Main from "./component/Main/Main";
 import ScrollPagination from "./component/ScrollPagination/ScrollPagination";
@@ -11,7 +12,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Main />} />
-        <Route path="scroll" element={<ScrollPagination />} />
+        <Route path="/scroll" element={<ScrollPagination />} />
+        <Route path="/button" element={<ButtonPagination />} />
       </Routes>
     </div>
   );
