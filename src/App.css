@@ -1,0 +1,14 @@
+.main_container {
+  padding: 30px;
+
+}
+
+
+.container {
+  display: flex;
+  grid-gap: 20px
+}
+
+.container li {
+  list-style: none;
+}
