@@ -1,6 +1,5 @@
 .main_container {
   padding: 30px;
-
 }
 
 
@@ -11,4 +10,55 @@
 
 .container li {
   list-style: none;
+}
+
+.container__load {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 100%;
+  max-width: 318px;
+  padding: 20px;
+  background-color: #373b56;
+  color: #fff;
+  margin: 10px 0;
+}
+
+.id {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  display: flex;
+
+}
+
+.item__id {
+  margin: auto;
+  font-size: 17px;
+}
+
+.item__text {
+  font-size: 17px;
+  margin: 15px 0 0 0;
+}
+
+.load__button {
+
+  border: none;
+  outline: none;
+  width: 100%;
+  padding: 16px 0;
+  margin: 10px 0 0 0;
+  background: #373b56;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+
 }

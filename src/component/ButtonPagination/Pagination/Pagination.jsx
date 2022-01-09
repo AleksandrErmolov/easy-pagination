@@ -12,7 +12,7 @@ export default function Pagination({ countryPerPage, totalCountries, paginate })
       <ul className="pagination">
         {pageNumbers.map((number) => (
           <li className="page-item" key={number}>
-            <a  className="page-link" onClick={() => paginate(number)}>
+                <a href="!#" className="page-link" onClick={(e) => {e.preventDefault(); return  paginate(number) }}>
               {number}
             </a>
           </li>
